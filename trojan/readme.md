@@ -1,4 +1,4 @@
-[Trojan](https://github.com/trojan-gfw/trojan)
+Source: [Trojan](https://github.com/trojan-gfw/trojan)
 
 
 Use trojan_static_CMakeLists.txt, then:

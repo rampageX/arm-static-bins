@@ -14,15 +14,15 @@ results:
 ```
 ./trojan -v
 
-Welcome to trojan 1.15.1
-Boost 1_71, OpenSSL 1.1.1e  17 Mar 2020
+Welcome to trojan 1.16.0
+Boost 1_71, OpenSSL 1.1.1g  21 Apr 2020
 [Disabled] MySQL Support
-[Enabled] TCP_FASTOPEN Support
+ [Enabled] TCP_FASTOPEN Support
 [Disabled] TCP_FASTOPEN_CONNECT Support
-[Enabled] SSL KeyLog Support
-[Enabled] NAT Support
-[Enabled] TLS1.3 Ciphersuites Support
+ [Enabled] SSL KeyLog Support
+ [Enabled] NAT Support
+ [Enabled] TLS1.3 Ciphersuites Support
 [Disabled] TCP Port Reuse Support
 OpenSSL Information
-Build Flags: compiler: distcc arm-linux-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -march=armv7-a -mtune=cortex-a9 -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DZLIB -DNDEBUG -I/mmc/include -DOPENSSL_PREFER_CHACHA_OVER_GCM
+	Build Flags: compiler: distcc arm-linux-gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -march=armv7-a -mtune=cortex-a9 -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DZLIB -DNDEBUG -I/mmc/include -DOPENSSL_PREFER_CHACHA_OVER_GCM
 ```

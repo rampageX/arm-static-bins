@@ -8,7 +8,7 @@ Results:
 Full version:
 
 ```
-HA-Proxy version 1.8.25 2020/04/02
+HA-Proxy version 1.8.26 2020/08/03
 Copyright 2000-2020 Willy Tarreau <willy@haproxy.org>
 
 Build options :
@@ -21,8 +21,8 @@ Build options :
 Default settings :
   maxconn = 2000, bufsize = 16384, maxrewrite = 1024, maxpollevents = 200
 
-Built with OpenSSL version : OpenSSL 1.1.1f  31 Mar 2020
-Running on OpenSSL version : OpenSSL 1.1.1f  31 Mar 2020
+Built with OpenSSL version : OpenSSL 1.1.1g  21 Apr 2020
+Running on OpenSSL version : OpenSSL 1.1.1g  21 Apr 2020
 OpenSSL library supports TLS extensions : yes
 OpenSSL library supports SNI : yes
 OpenSSL library supports : TLSv1.0 TLSv1.1 TLSv1.2 TLSv1.3
@@ -48,11 +48,12 @@ Available filters :
 	[SPOE] spoe
 	[COMP] compression
 	[TRACE] trace
+
 ```
 Lite version:
 
 ```
-HA-Proxy version 1.8.25 2020/04/02
+HA-Proxy version 1.8.26 2020/08/03
 Copyright 2000-2020 Willy Tarreau <willy@haproxy.org>
 
 Build options :

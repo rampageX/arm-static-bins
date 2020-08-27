@@ -1,12 +1,12 @@
 Source: [golang](https://golang.org/dl/)
 
-[Note](https://www.quakemachinex.com/blog/235.html)
+Note: [Tomatoware ARM 下建立 Go 编译环境](https://www.quakemachinex.com/blog/235.html)
 
-results:
+Packed:
 
 	tar --numeric-owner -czf /mnt/data/go1.15.linux-armv7.tar.gz -C /mmc/usr go
 
-Compile note:
+Usage:
 
 ```bash
 rm -fr /mmc/usr/go

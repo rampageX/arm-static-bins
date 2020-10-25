@@ -40,7 +40,7 @@ then:
 
 ```
 dig @127.0.0.1 -p 6666 +tcp taobao.com
-dohh www.taobao.com 127.0.0.1:6666
-dott www.taobao.com 127.0.0.1:6666
+kdig -4 +https -d taobao.com @127.0.0.1:6666
+kdig -4 +tls -d taobao.com @127.0.0.1:6666
 ```
 

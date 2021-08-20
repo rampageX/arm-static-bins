@@ -4,6 +4,12 @@ Results:
 
 	file ./https_dns_proxy
 	./https_dns_proxy: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
+	
+	Version 2021.07.30-750c4db
+	Built Aug 20 2021 21:38:46.
+	System c-ares: 1.15.0
+	System libcurl: libcurl/7.78.0 wolfSSL/4.8.1 zlib/1.2.11 zstd/1.5.0 c-ares/1.15.0 nghttp2/1.41.0
+	
 
 
 ```

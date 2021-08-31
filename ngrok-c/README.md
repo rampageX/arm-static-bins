@@ -19,6 +19,6 @@ update dns
 
 
 
-need help:
+Usage Help:
 
-I have no ngrok account to test, app just start ok, a true connect test is welcome!
+[Ngrok的Ngrokc客户端使用教程](https://www.ngrok.cc/_book/start/ngrok_ngrokc.html)

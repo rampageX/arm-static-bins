@@ -3,7 +3,7 @@ Source: [ngrokc](https://github.com/dosgo/ngrok-c)
 results:
 
 	file ./ngrokc
-	./rrredir: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
+	./ngrokc: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 
 
 ```

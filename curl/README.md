@@ -11,25 +11,29 @@ results:
 ```
 curlm -V;curlo -V;curlw -V;curlt -V
 
-curl 7.78.0 (armv7l-unknown-linux-uclibceabi) libcurl/7.78.0 mbedTLS/2.27.0 zlib/1.2.11 brotli/1.0.9 zstd/1.5.0 c-ares/1.17.2 libidn2/2.3.2 libpsl/0.20.2 (+libidn2/2.3.2) libssh2/1.8.0 nghttp2/1.44.0
-Release-Date: 2021-07-21
-Protocols: dict file ftp ftps gopher gophers http https imap imaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp
-Features: alt-svc AsynchDNS brotli HSTS HTTP2 IDN IPv6 Largefile libz NTLM NTLM_WB PSL SSL UnixSockets zstd
-
-curl 7.78.0 (armv7l-unknown-linux-uclibceabi) libcurl/7.78.0 OpenSSL/1.1.1l zlib/1.2.11 brotli/1.0.9 zstd/1.5.0 c-ares/1.17.2 libidn2/2.3.2 libpsl/0.20.2 (+libidn2/2.3.2) libssh2/1.8.0 nghttp2/1.44.0
-Release-Date: 2021-07-21
-Protocols: dict file ftp ftps gopher gophers http https imap imaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp
-Features: alt-svc AsynchDNS brotli HSTS HTTP2 HTTPS-proxy IDN IPv6 Largefile libz NTLM NTLM_WB PSL SSL TLS-SRP UnixSockets zstd
-
-curl 7.78.0 (armv7l-unknown-linux-uclibceabi) libcurl/7.78.0 wolfSSL/4.8.1 zlib/1.2.11 brotli/1.0.9 zstd/1.5.0 c-ares/1.17.2 libidn2/2.3.2 libpsl/0.20.2 (+libidn2/2.3.2) libssh2/1.8.0 nghttp2/1.44.0
-Release-Date: 2021-07-21
+#wolfSSL Version
+curl 7.79.0 (armv7l-unknown-linux-uclibceabi) libcurl/7.79.0 wolfSSL/4.8.1 zlib/1.2.11 brotli/1.0.9 zstd/1.5.0 c-ares/1.17.2 libidn2/2.3.2 libpsl/0.21.1 (+libidn2/2.3.2) libssh2/1.10.0 nghttp2/1.45.0
+Release-Date: 2021-09-15
 Protocols: dict file ftp ftps gopher gophers http https imap imaps mqtt pop3 pop3s rtsp scp sftp smtp smtps telnet tftp
 Features: alt-svc AsynchDNS brotli HSTS HTTP2 IDN IPv6 Largefile libz PSL SSL UnixSockets zstd
 
-curl 7.78.0 (armv7l-unknown-linux-uclibceabi) libcurl/7.78.0 wolfSSL/4.8.1
-Release-Date: 2021-07-21
+#OpenSSL Version
+curl 7.79.0 (armv7l-unknown-linux-uclibceabi) libcurl/7.79.0 OpenSSL/1.1.1l zlib/1.2.11 brotli/1.0.9 zstd/1.5.0 c-ares/1.17.2 libidn2/2.3.2 libpsl/0.21.1 (+libidn2/2.3.2) libssh2/1.10.0 nghttp2/1.45.0
+Release-Date: 2021-09-15
+Protocols: dict file ftp ftps gopher gophers http https imap imaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp
+Features: alt-svc AsynchDNS brotli HSTS HTTP2 HTTPS-proxy IDN IPv6 Largefile libz NTLM NTLM_WB PSL SSL TLS-SRP UnixSockets zstd
+
+#mbedTLS Version
+curl 7.79.0 (armv7l-unknown-linux-uclibceabi) libcurl/7.79.0 mbedTLS/3.0.0 zlib/1.2.11 brotli/1.0.9 zstd/1.5.0 c-ares/1.17.2 libidn2/2.3.2 libpsl/0.21.1 (+libidn2/2.3.2) libssh2/1.10.0 nghttp2/1.45.0
+Release-Date: 2021-09-15
+Protocols: dict file ftp ftps gopher gophers http https imap imaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp
+Features: alt-svc AsynchDNS brotli HSTS HTTP2 IDN IPv6 Largefile libz NTLM NTLM_WB PSL SSL UnixSockets zstd
+
+#Tiny Version
+curl 7.79.0 (armv7l-unknown-linux-uclibceabi) libcurl/7.79.0 wolfSSL/4.8.1
+Release-Date: 2021-09-15
 Protocols: http https
-Features: alt-svc AsynchDNS HSTS Largefile SSL
+Features: AsynchDNS SSL
 ```
 
 Compile note:

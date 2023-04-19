@@ -26,11 +26,17 @@ cross compile mipsel version on alpine:
 `CC=mipsel-linux-muslsf-gcc CXX=mipsel-linux-muslsf-g++ ZT_STATIC=1 make -j8`
 
 results:
+
+ARM:
 ```
-	file ./zerotier-one
-	./zerotier-one: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
+file ./zerotier-one
+./zerotier-one: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
+```
+MIPSEL:
 
-
+```
+file ./zerotier-one
+./zerotier-one: ELF 32-bit LSB pie executable, MIPS, MIPS-I version 1 (SYSV), static-pie linked, stripped
 ```
 
 ./zerotier-one -h

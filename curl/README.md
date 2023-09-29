@@ -1,11 +1,18 @@
 Source: [curl](https://curl.se/)
 
-Full functions curl static build with mbedTLS/WolfSSL/OpenSSL and a tiny version.
+Full functions curl static build with mbedTLS/WolfSSL/OpenSSL and a tiny version. 8.3.0+ support HTTP3.
+
+```
+curl 8.3.0 (armv5t-pc-linux-gnu) libcurl/8.3.0 OpenSSL/3.1.2 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.4 libssh2/1.11.0 nghttp2/1.56.0 ngtcp2/0.19.1 nghttp3/0.15.0
+Release-Date: 2023-09-13
+Protocols: dict file ftp ftps gopher gophers http https imap imaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
+Features: alt-svc AsynchDNS brotli HSTS HTTP2 HTTP3 HTTPS-proxy IDN IPv6 Largefile libz NTLM NTLM_WB SSL threadsafe TLS-SRP TrackMemory UnixSockets zstd
+```
 
 results:
 
 	file ./curl
-	./kdig: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
+	./curl: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 
 
 ```

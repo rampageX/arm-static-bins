@@ -45,6 +45,10 @@ Features: AsynchDNS SSL
 
 Compile note:
 
+8.3.0+ use this script: [static-curl-http3](https://github.com/rampageX/static-curl)
+
+Old:
+
 ```bash
 #!/bin/sh
 

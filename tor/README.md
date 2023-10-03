@@ -9,6 +9,11 @@ results:
 ```
 Usage: ./tor version
 Oct 23 20:42:38.023 [notice] Tor 0.4.5.0-alpha-dev (git-0d420918e71f94be) running on Linux with Libevent 2.1.8-stable, OpenSSL 1.0.2u, Zlib 1.2.11, Liblzma 5.2.4, Libzstd 1.4.4 and Glibc 1.0.32 as libc.
+
+#Alpine musl
+Tor version 0.4.9.0-alpha-dev (git-34b53ed8df1c315a).
+Tor is running on Linux with Libevent 2.1.12-stable, OpenSSL 1.1.1l, Zlib 1.2.11, Liblzma 5.2.5, Libzstd 1.5.5 and Unknown N/A as libc.
+Tor compiled with GCC version 9.4.0
 ```
 
 
@@ -81,5 +86,20 @@ make -j$(nproc)
 strip src/app/tor
 file src/app/tor
 src/app/tor --version
+
+
+#Alpine musl cross compile
+PKG_CONFIG_PATH="${lib_dir}/pkgconfig" \
+./configure --prefix=${result_dir} --host=${host} --disable-tool-name-check \
+            --enable-static-tor --enable-static-libevent --enable-static-openssl --enable-static-zlib \
+            --enable-zstd --enable-lzma --enable-pic \
+            --disable-manpage --disable-html-manual --disable-asciidoc --disable-unittests \
+            --disable-seccomp --disable-libscrypt \
+            --with-libevent-dir=${install_dir} \
+            --with-openssl-dir=${install_dir} \
+            --with-zlib-dir=${install_dir} \
+            CC=${host}-gcc CXX=${host}-g++ #ZSTD_LIBS=${install_dir}
+            #CPPFLAGS="${CPPFLAGS}" LDFLAGS="${LDFLAGS}"
+sed -i 's/-pie//g' Makefile
 ```
 

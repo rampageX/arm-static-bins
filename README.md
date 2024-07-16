@@ -1,5 +1,5 @@
 # arm-static-bins
-Some static bins for arm5/7l device, native build with [Tomatoware](https://github.com/lancethepants/tomatoware).
+Some static bins for arm5/7l device, native build with [Tomatoware](https://github.com/lancethepants/tomatoware) or Alpine cross-musl.
 
 ```
 Processor	: ARMv7 Processor rev 0 (v7l)

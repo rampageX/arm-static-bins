@@ -1,4 +1,4 @@
-Console app for <a href="https://github.com/Psiphon-Labs/psiphon-tunnel-core/tree/master/ConsoleClient" target="_blank">Psiphon</a>
+# Console app for <a href="https://github.com/Psiphon-Labs/psiphon-tunnel-core/tree/master/ConsoleClient" target="_blank">Psiphon</a>
 
 ```bash
 psiphon-tunnel-core -v

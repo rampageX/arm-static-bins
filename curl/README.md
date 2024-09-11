@@ -45,7 +45,7 @@ Features: AsynchDNS SSL
 
 Compile note:
 
-8.3.0+ use this script: [curl_armv5te_static](https://github.com/rampageX/static-curl/blob/main/curl_armv5te_static.sh)
+8.3.0+ use this script: [curl_armv5te_static](https://github.com/rampageX/static-curl/blob/alpine/curl_static_armv5te_alpine.sh)
 
 Old:
 

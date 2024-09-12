@@ -2,7 +2,7 @@ Source: [curl](https://curl.se/)
 
 Full functions curl static build with mbedTLS/WolfSSL/OpenSSL and a tiny version. 
 * 8.3.0+ support HTTP3.
-* 8.10.0+ had enbedded CA, means no need install ca-bundle and ca-certificates. (--with-ca-embed)
+* 8.10.0+ had embedded CA, means no need install ca-bundle and ca-certificates. (--with-ca-embed)
 
 
 Compile note:

@@ -2,11 +2,15 @@ Source: [curl](https://curl.se/)
 
 Full functions curl static build with mbedTLS/WolfSSL/OpenSSL and a tiny version. 8.3.0+ support HTTP3.
 
+Compile note:
+
+8.3.0+ use this script: [curl_armv5te_static](https://github.com/rampageX/static-curl/blob/alpine/curl_static_armv5te_alpine.sh)
+
 ```
-curl 8.9.0 (arm-unknown-linux-musleabi) libcurl/8.9.0 quictls/3.1.5 zlib/1.3.1 brotli/1.1.0 zstd/1.5.6 c-ares/1.32.3 libpsl/0.21.5 libssh2/1.11.0 nghttp2/1.62.1 ngtcp2/1.6.0 nghttp3/1.4.0
-Release-Date: 2024-07-24
+curl 8.10.0 (arm-unknown-linux-musleabi) libcurl/8.10.0 quictls/3.1.5 zlib/1.3.1 brotli/1.1.0 zstd/1.5.6 c-ares/1.32.3 libpsl/0.21.5 libssh2/1.11.0 nghttp2/1.62.1 ngtcp2/1.6.0 nghttp3/1.4.0
+Release-Date: 2024-09-11
 Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
-Features: alt-svc AsynchDNS brotli HSTS HTTP2 HTTP3 HTTPS-proxy IPv6 Largefile libz NTLM PSL SSL threadsafe TLS-SRP TrackMemory UnixSockets zstd
+Features: alt-svc AsynchDNS brotli CAcert HSTS HTTP2 HTTP3 HTTPS-proxy IPv6 Largefile libz NTLM PSL SSL threadsafe TLS-SRP TrackMemory UnixSockets zstd
 ```
 
 results:
@@ -15,6 +19,9 @@ results:
 	./curl: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, stripped
 
 
+----------------------------------------------------------------------------------------------------
+
+Old Version:
 ```
 curlm -V;curlo -V;curlw -V;curlt -V
 
@@ -42,12 +49,6 @@ Release-Date: 2021-09-15
 Protocols: http https
 Features: AsynchDNS SSL
 ```
-
-Compile note:
-
-8.3.0+ use this script: [curl_armv5te_static](https://github.com/rampageX/static-curl/blob/alpine/curl_static_armv5te_alpine.sh)
-
-Old:
 
 ```bash
 #!/bin/sh

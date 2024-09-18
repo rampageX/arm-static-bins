@@ -4,14 +4,21 @@ Full functions curl static build with mbedTLS/WolfSSL/OpenSSL and a tiny version
 * 8.3.0+ support HTTP3.
 * 8.10.0+ had embedded CA, means no need install ca-bundle and ca-certificates. (--with-ca-embed)
 
+```
+curl -Iv https://761026.top
+Note: Using embedded CA bundle (228633 bytes)
+Note: Using embedded CA bundle, for proxies (228633 bytes)
+......
+```
+
 
 Compile note:
 
 8.3.0+ use this script: [curl_armv5te_static](https://github.com/rampageX/static-curl/blob/alpine/curl_static_armv5te_alpine.sh)
 
 ```
-curl 8.10.0 (arm-unknown-linux-musleabi) libcurl/8.10.0 quictls/3.1.5 zlib/1.3.1 brotli/1.1.0 zstd/1.5.6 c-ares/1.32.3 libpsl/0.21.5 libssh2/1.11.0 nghttp2/1.62.1 ngtcp2/1.6.0 nghttp3/1.4.0
-Release-Date: 2024-09-11
+curl 8.10.1 (arm-unknown-linux-musleabi) libcurl/8.10.1 quictls/3.1.7 zlib/1.3.1 brotli/1.1.0 zstd/1.5.6 c-ares/1.33.1 libpsl/0.21.5 libssh2/1.11.0 nghttp2/1.63.0 ngtcp2/1.7.0 nghttp3/1.5.0
+Release-Date: 2024-09-18
 Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
 Features: alt-svc AsynchDNS brotli CAcert HSTS HTTP2 HTTP3 HTTPS-proxy IPv6 Largefile libz NTLM PSL SSL threadsafe TLS-SRP TrackMemory UnixSockets zstd
 ```

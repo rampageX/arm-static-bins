@@ -58,8 +58,6 @@ ISC 禁止**完整 BIND** 的 static build，原因涉及 `named` 动态模块�
 
 本次已用独立新建的目录**从头跑完整份脚本**（GCC 16.2 ARM musl 交叉工具链），成功输出 ELF 32-bit ARM EABI5 **statically linked**，ABI 标记 `v5TE`。QEMU `qemu-arm dig_armv5te_static_9.20.30 -v` 返回 `DiG 9.20.30`。
 
-**尚未在你的 Alpine GCC 9.4 工具链及 Tomato 路由器上实际运行；真实 DNS/DoT/DoH 网络查询也尚待路由器验证。** 通过 QEMU 的版本测试不等于已经完成旧内核网络兼容测试。
-
 在路由器上执行：
 
 ```sh
@@ -70,7 +68,10 @@ chmod +x ./dig_armv5te_static_9.20.30
 ./dig_armv5te_static_9.20.30 @223.5.5.5 example.com A +https
 ```
 
-DoT/DoH 的证书验证应在提供可信 CA、相应 TLS 主机名的条件下单独测试；仅显示 DNS 答案**不等于证书已验证**。
+DoT/DoH 的证书验证应在提供可信 CA、相应 TLS 主机名的条件下单独测试；
+
+**已在虚拟机 Alpine GCC 9.4 工具链及 Tomato 路由器上实际运行；真实 DNS/DoT/DoH 网络查询已在 ASUS RT-AC5300 路由器验证。** 
+
 
 已编译成品 SHA256：
 

@@ -22,4 +22,4 @@ cd ./src
 
 gcc  -g -O2 -Wall -Werror=format-security -Werror=implicit -Wstrict-prototypes -zmuldefs -static -o kdig utils/kdig/kdig-kdig_exec.o utils/kdig/kdig-kdig_main.o utils/kdig/kdig-kdig_params.o  ./.libs/libknotus.a /mnt/data/compile/knot-dns/src/.libs/libknot.a -L/mmc/lib /mnt/data/compile/knot-dns/src/.libs/libdnssec.a -Wl,--whole-archive /mmc/lib/libedit.a -lncurses /mmc/lib/libgnutls.a -lnettle -lhogweed /mmc/lib/libgmp.a /mmc/lib/libintl.a /mmc/lib/libiconv.a -lc -Wl,--no-whole-archive
 ```
-
+Note: From 3.6.2, static build with knup@chatGPT 's `kdig_armv5te_static.sh` script.
